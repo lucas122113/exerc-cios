@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>30 Exercícios JavaScript</title>
+</head>
+<body>
+  <!---->
+  <h1 id="tituloPrincipal">Título Original</h1>
+  <button onclick="alterarTitulo()">Alterar Título</button>
+
+  <hr>
+
+  <button onclick="trocarCorFundo()">Trocar Cor</button>
+
+  <hr>
+
+  <p id="paragrafoAzul">Texto qualquer</p>
+  <button onclick="mudarParagrafo()">Mudar Cor</button>
+
+  <hr>
+
+  <button onclick="mensagem()">Clique Aqui</button>
+
+  <hr>
+
+  <input type="text" id="entradaTexto" placeholder="Digite algo">
+  <button onclick="mostrarTexto()">Mostrar</button>
+  <p id="resultadoTexto"></p>
+
+  <hr>
+
+  <p id="textoFonte">Texto com fonte ajustável</p>
+  <button onclick="aumentarFonte()">Aumentar Fonte</button>
+  <button onclick="diminuirFonte()">Diminuir Fonte</button>
+
+  <hr>
+
+  <img id="imagemTroca" src="https://picsum.photos/200" width="200">
+  <br>
+  <button onclick="trocarImagem()">Trocar Imagem</button>
+
+  <hr>
+
+  <button onclick="diminuirContador()">-</button>
+  <span id="contador">0</span>
+  <button onclick="aumentarContador()">+</button>
+
+  <hr>
+
+  <p id="textoToggle">Texto visível</p>
+  <button onclick="toggleTexto()">Mostrar/Esconder</button>
+
+  <hr>
+
+  <h2 id="tituloAleatorio">Título Colorido</h2>
+  <button onclick="corAleatoria()">Cor Aleatória</button>
+
+  <hr>
+
+  <p id="mensagemId">Mensagem original</p>
+  <button onclick="alterarMensagem()">Alterar Mensagem</button>
+
+  <hr>
+
+  <p class="paragrafo">Parágrafo 1</p>
+  <p class="paragrafo">Parágrafo 2</p>
+  <p class="paragrafo">Parágrafo 3</p>
+  <button onclick="alterarParagrafos()">Alterar Parágrafos</button>
+
+  <hr>
+
+  <div class="caixa">Caixa 1</div>
+  <div class="caixa">Caixa 2</div>
+  <button onclick="alterarCaixas()">Alterar Caixas</button>
+
+  <hr>
+
+  <h3 class="tituloQuery">Título Query</h3>
+  <button onclick="usarQuerySelector()">QuerySelector</button>
+
+  <hr>
+
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  <button onclick="alterarLista()">Alterar Lista</button>
+
+  <hr>
+
+  <input type="text" id="novoItem" placeholder="Novo item">
+  <button onclick="adicionarItem()">Adicionar Item</button>
+  <button onclick="removerItem()">Remover Último</button>
+
+  <ul id="listaItens"></ul>
+
+  <hr>
+
+  <input type="text" id="tarefa" placeholder="Nova tarefa">
+  <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+
+  <ul id="listaTarefas"></ul>
+
+  <hr>
+
+  <p id="duplicarTexto">Texto para duplicar</p>
+  <button onclick="duplicarElemento()">Duplicar</button>
+
+  <hr>
+
+  <button onclick="criarParagrafo()">Criar Parágrafo</button>
+
+  <hr>
+
+  <div id="quadrado"></div>
+
+  <hr>
+
+  <input type="text" id="campoTecla" placeholder="Pressione uma tecla">
+
+  <hr>
+
+  <textarea id="textarea"></textarea>
+  <p>Caracteres: <span id="contadorCaracteres">0</span></p>
+
+  <hr>
+
+  <form id="formularioSimples">
+    <input type="text" placeholder="Nome">
+    <button type="submit">Enviar</button>
+  </form>
+
+  <hr>
+
+  <div id="areaMouse" style="height:200px; border:1px solid black;"></div>
+  <p id="posicaoMouse"></p>
+
+  <hr>
+
+  <input type="number" id="n1" placeholder="Número 1">
+  <input type="number" id="n2" placeholder="Número 2">
+
+  <button onclick="calcular('+')">+</button>
+  <button onclick="calcular('-')">-</button>
+  <button onclick="calcular('*')">*</button>
+  <button onclick="calcular('/')">/</button>
+
+  <p id="resultadoCalc"></p>
+
+  <hr>
+<style>
+    body{
+      background-color: white;
+      color: black;
+      transition: 0.3s;
+    }
+
+    .escuro{
+      background-color: #222;
+      color: white;
+    }
+  </style>
+  <button onclick="trocarTema()">Tema Claro/Escuro</button>
+
+  <hr>
+
+  <p id="tempo">0</p>
+  <button onclick="iniciarCronometro()">Iniciar</button>
+  <button onclick="pausarCronometro()">Pausar</button>
+  <button onclick="resetarCronometro()">Resetar</button>
+
+  <hr>
+
+  <img id="galeria" width="300">
+  <br>
+  <button onclick="imagemAnterior()">Anterior</button>
+  <button onclick="proximaImagem()">Próxima</button>
+
+  <hr>
+
+  <form id="formularioCompleto">
+    <input type="text" id="nome" placeholder="Nome">
+    <br><br>
+
+    <input type="email" id="email" placeholder="Email">
+    <br><br>
+
+    <input type="password" id="senha" placeholder="Senha">
+    <br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <p id="mensagemFormulario"></p>
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
+

@@ -1,0 +1,45 @@
+   body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      transition: 0.3s;
+    }
+
+    section {
+      border: 2px solid #ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    button {
+      margin: 5px;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+
+    .caixa {
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid black;
+    }
+
+    .erro {
+      border: 2px solid red;
+    }
+
+    #quadrado {
+      width: 100px;
+      height: 100px;
+      background: red;
+    }
+    
+     body{
+      background-color: white;
+      color: black;
+      transition: 0.3s;
+    }
+
+    .escuro{
+      background-color: #222;
+      color: white;
+    }
