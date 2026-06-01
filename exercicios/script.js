@@ -248,7 +248,7 @@
 
       document.getElementById("galeria").src = imagens[indice];
     }
-
+//31° questão
     document.getElementById("formularioCompleto").addEventListener("submit", function(event) {
 
       event.preventDefault();
