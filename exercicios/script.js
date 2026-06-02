@@ -219,16 +219,14 @@
       segundos = 0;
       document.getElementById("tempo").textContent = segundos;
     }
-//27° questão
+
     let imagens = [
       "https://picsum.photos/300?1",
       "https://picsum.photos/300?2",
       "https://picsum.photos/300?3"
     ];
-//28° questão
     let indice = 0;
     document.getElementById("galeria").src = imagens[indice];
-//29° questão
     function proximaImagem() {
       indice++;
 
@@ -238,7 +236,6 @@
 
       document.getElementById("galeria").src = imagens[indice];
     }
-//30° questão
     function imagemAnterior() {
       indice--;
 
@@ -248,7 +245,7 @@
 
       document.getElementById("galeria").src = imagens[indice];
     }
-//31° questão
+//27° questão
     document.getElementById("formularioCompleto").addEventListener("submit", function(event) {
 
       event.preventDefault();
